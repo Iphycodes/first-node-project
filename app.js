@@ -1,8 +1,7 @@
-const { startCase, upperCase } = require("lodash")
+const { startCase, upperCase } = require("lodash");
 
-
-const name = 'ifeanyi ogbonna'
+const name = "ifeanyi ogbonnaya";
 
 const capitalName = startCase(upperCase(name));
 
-console.log(capitalName)
+console.log(capitalName);
